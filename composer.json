@@ -1,0 +1,30 @@
+{
+    "name": "divido/config-parser",
+    "description": "Config parser for Divido Tech Test",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Matias Navarro-Carter",
+            "email": "mnavarrocarter@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Divido\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Divido\\": "tests"
+        }
+    }
+}
